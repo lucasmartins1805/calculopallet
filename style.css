@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center;     /* Centraliza na vertical */
+    min-height: 100vh;       /* Usa a altura total da tela */
+    background-color: #f3ebeb; /* Cor de fundo da página */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Criamos uma classe para o PAINEL (o card branco/bege) é esse que centraliza
+*/
+.painel-central{
+    background-color: rgb(243, 235, 235); 
+    width: 350px; 
+    height: 550px; 
+    padding: 30px; 
+    border-radius: 25px; /* Bordas arredondadas como na imagem */
+    box-shadow: 0 10px 60px rgba(110, 115, 173, 0.4); /* Sua sombra suave */
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+label{
+    color: rgb(44, 39, 39);
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.resultado{
+    padding: 30%;
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+
+.estiloresultado{
+    text-align: center;     /* Centraliza o número dentro do campo */
+    font-weight: bold;      /* Deixa o número em negrito */
+    font-size: 24px;        /* Aumenta o tamanho do número */
+    
+    /* Outros ajustes para ficar bonito como na sua imagem */
+    width: 150px;           /* Define uma largura para a caixa */
+    height: 40px;           /* Define uma altura */
+    border-radius: 20px;    /* Deixa as bordas arredondadas como na foto */
+    border: 1px solid #000; /* Define a cor da borda */
+    background-color:#f3ebeb; /* Cor de fundo aproximada da sua imagem */
+}
+
+
+.calculo{
+   text-align: center;     /* Centraliza o número dentro do campo */
+    font-weight: bold;      /* Deixa o número em negrito */
+    font-size: 24px; 
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+
+    
+    
+
+}
+
+.input{
+    border-radius: 6px;
+    background-color: rgb(238, 231, 231);
+    color: black;
+    width: 150px;
+    height:30px ;
+    text-align: center;
+}
+
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 150px;
+    height: auto;
+    
+}
+
+.logo-papion{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+
+}
+
+.logo-innova{
+    
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    
+
+}
+
+.innova{
+    width: 60px;
+    height: auto;
+    
+}
+
+
+
