@@ -68,8 +68,8 @@ label{
     border-radius: 6px;
     background-color: rgb(238, 231, 231);
     color: black;
-    width: 150px;
-    height:30px ;
+    width: 100%;
+    height:auto ;
     text-align: center;
 }
 
